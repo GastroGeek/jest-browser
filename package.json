@@ -9,7 +9,7 @@
   "scripts": {
     "test": "run-p reload watch",
     "watch": "npm-watch jest",
-    "jest": "jest --detectOpenHandles --forceExit --onlyChanged --noStackTrace --passWithNoTests --silent --config jest.config.json",
+    "jest": "jest --detectOpenHandles --forceExit --noStackTrace --passWithNoTests --silent --config jest.config.json",
     "reload": "reload --exts html -s reports/tests.html"
   },
   "devDependencies": {
