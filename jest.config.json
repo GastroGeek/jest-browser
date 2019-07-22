@@ -1,10 +1,17 @@
 {
+  "roots": [
+    "src/"
+  ],
+  "testMatch": [
+    "<rootDir>/src/**/*.tests.js"
+  ],
   "reporters": [
     "default",
     [
-      "<rootDir>/node_modules/jest-html-reporter/dist/main.js",
+      "jest-html-reporter",
       {
-        "pageTitle": "Test Report"
+        "outputPath": "reports/tests.html",
+        "pageTitle": "Tests Report"
       }
     ]
   ]
