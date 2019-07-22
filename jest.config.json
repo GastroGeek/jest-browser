@@ -1,0 +1,11 @@
+{
+  "reporters": [
+    "default",
+    [
+      "<rootDir>/node_modules/jest-html-reporter/dist/main.js",
+      {
+        "pageTitle": "Test Report"
+      }
+    ]
+  ]
+}
